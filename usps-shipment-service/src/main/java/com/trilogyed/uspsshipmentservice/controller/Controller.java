@@ -3,6 +3,7 @@ package com.trilogyed.uspsshipmentservice.controller;
 import com.trilogyed.uspsshipmentservice.dao.ShipmentDao;
 import com.trilogyed.uspsshipmentservice.exception.NotFoundException;
 import com.trilogyed.uspsshipmentservice.model.Shipment;
+import com.trilogyed.uspsshipmentservice.servicelayer.ServiceLayer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.CachePut;
@@ -19,15 +20,14 @@ import javax.validation.Valid;
 public class Controller {
 
     @Autowired
-    ShipmentDao dao;
+    ServiceLayer sl;
 
     @CachePut(key = "#result.getId()")
     @PostMapping(value = "/shipment/addshipment")
     @ResponseStatus(HttpStatus.CREATED)
     public Shipment createShipment(@RequestBody @Valid Shipment shipment)
     {
-        if(shipment.getTrackingNumber()==null || shipment.getRecipientName()==null) return null;
-        else return dao.addShipment(shipment);
+        return sl.addShipment(shipment);
     }
 
     @Cacheable
@@ -35,9 +35,7 @@ public class Controller {
     @ResponseStatus(HttpStatus.OK)
     public Shipment findShipmentByTrackingId(@PathVariable String trackingNumber)
     {
-        Shipment ship = dao.getShipmentByTrackingNumber(trackingNumber);
-        if (ship==null) throw new NotFoundException("No shipment exists with this tracking Number.");
-        return ship;
+        return sl.getByTrackingId(trackingNumber);
     }
 
 

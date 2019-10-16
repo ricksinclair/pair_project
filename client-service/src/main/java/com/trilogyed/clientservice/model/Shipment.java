@@ -2,7 +2,7 @@ package com.trilogyed.clientservice.model;
 
 import java.util.Objects;
 
-public class Shipments {
+public class Shipment {
 
     private int id;
     private String trackingNumber;
@@ -32,19 +32,14 @@ public class Shipments {
         this.recipientName = recipientName;
     }
 
-    public Shipments(String trackingNumber, String recipientName) {
-        this.trackingNumber = trackingNumber;
-        this.recipientName = recipientName;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Shipments shipments = (Shipments) o;
-        return getId() == shipments.getId() &&
-                getTrackingNumber().equals(shipments.getTrackingNumber()) &&
-                getRecipientName().equals(shipments.getRecipientName());
+        Shipment shipment = (Shipment) o;
+        return getId() == shipment.getId() &&
+                getTrackingNumber().equals(shipment.getTrackingNumber()) &&
+                getRecipientName().equals(shipment.getRecipientName());
     }
 
     @Override

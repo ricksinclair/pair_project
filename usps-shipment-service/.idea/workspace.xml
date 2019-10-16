@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81f45e68-4e6a-4460-a25c-28c4d04104c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../client-service/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-service/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-service/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-service/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-service/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-service/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-service/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-service/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-service/src/main/java/com/trilogyed/clientservice/model/Shipments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-service/src/main/java/com/trilogyed/clientservice/service/ServiceLayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-service/src/main/java/com/trilogyed/clientservice/util/feign/ShipmentClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-service/src/test/java/com/trilogyed/clientservice/service/ServiceLayerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-service/src/test/java/com/trilogyed/clientservice/util/feign/ShipmentsUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-service/client-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/client-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-service/src/main/java/com/trilogyed/clientservice/ClientServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/src/main/java/com/trilogyed/clientservice/ClientServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../client-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="536ca789-e133-443a-87cc-846a9b495e3f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,35 +10,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="ProjectId" id="1SHycruD9c2o3Adwf7q4pIrdDbr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-=======
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java" />
-    </key>
->>>>>>> 12af465cc4f729419e998ad5dd936dcabce67fac
-  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -71,32 +27,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShipmentDaoJdbcTemplateImplTest">
-    <configuration name="ShipmentDaoJdbcTemplateImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.UspsShipmentServiceApplication">
+    <configuration name="UspsShipmentServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.trilogyed.uspsshipmentservice.UspsShipmentServiceApplication" />
       <module name="usps-shipment-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.trilogyed.uspsshipmentservice.dao.*" />
+          <option name="PATTERN" value="com.trilogyed.uspsshipmentservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.trilogyed.uspsshipmentservice.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.trilogyed.uspsshipmentservice.dao.ShipmentDaoJdbcTemplateImplTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UspsShipmentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ServiceLayerMocks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="usps-shipment-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.trilogyed.uspsshipmentservice.UspsShipmentServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.trilogyed.uspsshipmentservice.mocks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.trilogyed.uspsshipmentservice.mocks" />
+      <option name="MAIN_CLASS_NAME" value="com.trilogyed.uspsshipmentservice.mocks.ServiceLayerMocks" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ShipmentDaoJdbcTemplateImplTest" />
+        <item itemvalue="Application.UspsShipmentServiceApplication" />
+        <item itemvalue="JUnit.ServiceLayerMocks" />
       </list>
     </recent_temporary>
   </component>
@@ -104,30 +67,6 @@
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="81f45e68-4e6a-4460-a25c-28c4d04104c8" name="Default Changelist" comment="" />
-      <created>1571234897867</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1571234897867</updated>
-      <workItem from="1571234899563" duration="869000" />
-    </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
